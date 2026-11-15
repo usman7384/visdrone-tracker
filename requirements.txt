@@ -1,0 +1,9 @@
+ultralytics
+onnx
+onnxruntime
+pandas
+matplotlib
+opencv-python
+numpy<2
+scipy
+jupyter

@@ -1,0 +1,11 @@
+.venv/
+data/
+runs/
+TrackEval/
+track_eval/
+*.pt
+*.onnx
+*.log
+*.mp4
+__pycache__/
+.ipynb_checkpoints/
