@@ -19,9 +19,13 @@ Detector (VisDrone-DET val, 548 images):
 | ONNX | 0.169 | 31.0 |
 | ONNX INT8 | 0.158 | 55.0 |
 
-INT8 was *slower* on my CPU (Ryzen 9 5900HS). Chart: `reports/accuracy_vs_latency.png`.
+INT8 was *slower* on my CPU (Ryzen 9 5900HS).
+
+![accuracy vs latency](reports/accuracy_vs_latency.png)
 
 Image damage (mAP@50-95, clean = 0.170): heavy noise 0.032, heavy blur 0.047, heavy low light 0.126. Noise hurts most. Full table: `reports/robustness.csv`.
+
+![corruption examples](reports/corruption_examples.png)
 
 Tracking (VisDrone-MOT val, 7 videos):
 
