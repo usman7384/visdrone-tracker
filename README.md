@@ -36,6 +36,10 @@ Tracking (VisDrone-MOT val, 7 videos):
 | pedestrian | ONNX | 31.5 | 19.0 | 37.9 |
 | pedestrian | ONNX INT8 | 30.5 | 18.7 | 36.8 |
 
+![tracking frames](reports/tracking_frames.png)
+
+Four frames from one car-heavy video: each car keeps a box and an id number while it moves. Some ids are large because the tracker also starts short-lived tracks for weak detections.
+
 INT8 costs about 1 HOTA point. Pedestrians are harder than cars (small and crowded).
 
 ## Run it
