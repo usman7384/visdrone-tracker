@@ -1,4 +1,6 @@
-# Drone object detection and tracking (VisDrone)
+# visdrone-tracker
+
+Drone object detection and tracking (VisDrone).
 
 A small learning project: train a detector on drone images, shrink it, break it with bad images, then use it to track cars and people in video.
 
